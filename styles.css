@@ -5,6 +5,9 @@
     padding-top: 15px;
     align-items: center;
 }
+.container-header-img span:hover{
+    cursor: pointer;
+}
 .main-container{
     padding: 50px;
     align-items: center;
@@ -26,15 +29,12 @@
     width: 100%;
 }
 .footer-container{
-    padding: 5px;
-    background-color: #656d78;
     text-align: center;
-    color: white;
-    padding-bottom: 5px;
+    background-color: #28a745;
+    font-size: 30px;
+    font-size: 'Open Sans Condensed', sans-serif;
+    color: #656d78;
 }
-.footer-container img {
-    width: 30px;
-}
-.footer-container img:hover{
+.footer-container p:hover{
     cursor: pointer;
 }
